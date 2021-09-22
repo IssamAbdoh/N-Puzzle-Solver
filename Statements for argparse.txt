@@ -1,0 +1,34 @@
+python driver_3.py bfs 1,2,5,3,4,0,6,7,8
+
+python driver_3.py -h
+
+python driver_3.py dfs 1,2,5,3,4,0,6,7,8
+
+python driver_3.py ast 1,2,5,3,4,0,6,7,8
+
+7,2,4,5,0,6,8,3,1
+
+python driver_3.py bfs 7,2,4,5,0,6,8,3,1
+
+python driver_3.py dfs 7,2,4,5,0,6,8,3,1
+
+python driver_3.py ast 7,2,4,5,0,6,8,3,1
+
+Test Case #1
+python driver_3.py bfs 3,1,2,0,4,5,6,7,8
+python driver_3.py dfs 3,1,2,0,4,5,6,7,8
+python driver_3.py ast 3,1,2,0,4,5,6,7,8
+python driver_3.py ida 3,1,2,0,4,5,6,7,8
+Test Case #2
+python driver_3.py bfs 1,2,5,3,4,0,6,7,8
+python driver_3.py dfs 1,2,5,3,4,0,6,7,8
+python driver_3.py ast 1,2,5,3,4,0,6,7,8
+python driver_3.py ida 1,2,5,3,4,0,6,7,8
+
+python driver_3.py bfs 1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+python driver_3.py dfs 1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+python driver_3.py ast 1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+python driver_3.py ida 1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+
+    g = state([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],None)
+    g2 = state([1,0,2,3,4,5,6,7,8,9,10,11,12,13,14,15],None)
