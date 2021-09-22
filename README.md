@@ -13,3 +13,5 @@ ast (A­Star Search)
 ida (IDA­Star Search)
 
 
+![](https://github.com/IssamAbdoh/N-Puzzle-Solver/blob/main/Pictures/Screenshot%20(4626).png)
+![](https://github.com/IssamAbdoh/N-Puzzle-Solver/blob/main/Pictures/Screenshot%20(4627).png)
